@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tbl {
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+  font-size: 16px;
+}
+
+.tbl th {
+  background-color: whitesmoke;
+}
+
+.tbl th,
+.tbl td {
+  padding: 12px;
+  text-align: center;
+}
+
+.tbl tbody tr:nth-child(odd) {
+  background-color: rgb(142, 59, 142);
+  color: whitesmoke;
+}
+
+.tbl tbody tr:nth-child(even) {
+  background-color: whitesmoke;
+  color: rgb(142, 59, 142);
+}
